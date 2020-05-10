@@ -1,5 +1,6 @@
 import pyspeedtest
  # server not found can be resolved by specifying your server name
+
 class GetData():
     def __init__(self):
 
@@ -28,6 +29,7 @@ class GetData():
 
 
 
+# creating object instance
 ob = GetData()
 ob.get_ping()
 ob.get_server()
